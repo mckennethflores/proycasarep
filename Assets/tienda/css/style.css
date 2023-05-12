@@ -916,9 +916,9 @@ section.banner {
     ul li {
         padding-left: 24px;
     }
-    li.active {
+   /*  li.active {
         background: black;
-    }
+    } */
     .bi-list::before {
         content: "\f479";
         color: white;
@@ -1208,3 +1208,167 @@ div#showVideo {
     justify-content: center;
     /* height: 500px; */
 }
+.col-md-6.imagenEst.medic img {
+    width: 100%;
+}
+body > section:nth-child(7) > div.container > div > div:nth-child(2) > div {
+    margin-top: -15px;
+}
+
+/* estilo de whatsApp flotante */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/* /estilo de whatsApp flotante */
+.arriba_ {
+    margin-left: 50%;
+}
+
+li.redes_ {
+    display: inline-block;
+}
+.socials {
+    display: inline-block;
+    vertical-align: middle;
+}
+.socials li {
+    list-style: none;
+    list-style-position: outside;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 6px;
+}
+.socials a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #7c868d;
+}
+
+.socials a {
+    display: block;
+    transition: opacity .3s;
+}
+.ico-facebook {
+    background-image: url(../img/sprite.png);
+    background-position: 0% 100%;
+    background-size: 2154.5454545454545% 791.3043478260869%;
+    width: 11px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.ico-twitter {
+    background-image: url(../img/sprite.png);
+    background-position: 32.870370370370374% 61.44578313253012%;
+    background-size: 1128.5714285714287% 1137.5%;
+    width: 21px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.ico-instagram {
+    background-image: url(../img/sprite.png);
+    background-position: 10.185185185185185% 63.35403726708074%;
+    background-size: 1128.5714285714287% 866.6666666666666%;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.ico-youtube {
+    background-image: url(../img/sprite.png);
+    background-position: 0% 83.125%;
+    background-size: 1185% 827.2727272727274%;
+    width: 20px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.ico-pinterest {
+    background-image: url(../img/sprite.png);
+    background-position: 0% 65.80645161290323%;
+    background-size: 1316.6666666666665% 674.074074074074%;
+    width: 18px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+
+.languaje {
+    display: inline-block;
+ /*   margin-left: 20%;*/
+}
+.abajo_ {
+    display: inline-block;
+    float: right;
+}
+
+.stl-titulo{
+
+    display: inline-block;font-size: 16px; font-weight: 100; margin: 0px !important;
+    }
+
+
+@media only screen and (max-width: 769px) {
+    img.d-block.w-100 {
+        height: auto !important;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+
+    img.d-block.w-100 {
+        height: 268px !important;
+    }
+    .video-background {
+        width: 100%;
+    }
+    div#showVideo {
+        width: 100% !important;
+        padding: 0;
+        margin: 0 !important;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .col-md-6.imagenEst img {
+        width: 100% !important;
+    }
+    body > div:nth-child(5){
+        display: none;
+    }
+    .staticData {
+        padding: 0px 4% 32px 4%;
+    }
+    body > section:nth-child(7) > div.container > div > div:nth-child(2) > div {
+        margin-top: 8%;
+    }
+  }

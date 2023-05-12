@@ -60,6 +60,7 @@ const celular = "<?= CELULAR1 ?>";
 </div>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="lightbox.min.css">
 
 <script src="<?= media(); ?>/tienda/js/lightbox-plus-jquery.min.js"></script>
 <script src="<?= media(); ?>/tienda/js/jquery.min.1.9.1.js"></script>

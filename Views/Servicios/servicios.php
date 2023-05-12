@@ -12,12 +12,8 @@ $idpagina = $data['page']['idpost'];
     <section class="banner">
     <div class="capa">
         
-        <h1 class="bannerTit">
-        <?php
-        if(viewPage($idpagina)){
-            echo $data['page']['titulo'];
-        }
-        ?>
+        <h1 class="bannerTit estiloServi">
+        ALOJAMIENTO
         </h1>
     </div>
     
@@ -43,8 +39,21 @@ $idpagina = $data['page']['idpost'];
 	if(viewPage($idpagina)){
 		?>
 
+<?php
+	if(viewPage($idpagina)){
+		echo $data['page']['contenido'];
+	}else{
+  ?>
+<div>
+	<div class="container-fluid  text-center" >
+		<img src="<?= media() ?>/images/construction.png" alt="En construcción">
+		<h3>Estamos trabajando para usted.</h3>
+	</div>
+</div>
+<?php 
+	}
 
-
+?>
         <?php
 	}else{
   ?>

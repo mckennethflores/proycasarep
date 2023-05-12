@@ -62,7 +62,7 @@
                 <li><a class="treeview-item" href="<?= base_url(); ?>/categoriatres"><i class="icon fa fa-circle-o"></i> Sub Categorías</a></li>
                 <?php } ?>
                 <?php if(!empty($_SESSION['permisos'][4]['r'])){ ?>
-                <li><a class="treeview-item" href="<?= base_url(); ?>/productos"><i class="icon fa fa-circle-o"></i> Inmuebles</a></li>
+                <li><a class="treeview-item" href="<?= base_url(); ?>/productos"><i class="icon fa fa-circle-o"></i> Blog</a></li>
                 <?php } ?>
                 <?php if(!empty($_SESSION['permisos'][4]['r'])){ ?>
                 <li><a class="treeview-item" href="<?= base_url(); ?>/sliders"><i class="icon fa fa-file-image-o"></i> Slider</a></li>

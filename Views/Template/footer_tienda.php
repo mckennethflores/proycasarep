@@ -59,6 +59,9 @@ const celular = "<?= CELULAR1 ?>";
 	 
 <!-- /footer -->
 
+	<a href="https://api.whatsapp.com/send?phone=51<?= CELULAR1 ?>&amp;text=Quiero%20informacion%20,%20mi%20nombre%20es:" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 
 
 <script src="<?= media(); ?>/tienda/js/lightbox-plus-jquery.min.js"></script>

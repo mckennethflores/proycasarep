@@ -29,7 +29,7 @@ const MONEY = "S/ ";
 	const EMAIL = "info@casarepososurco.com";
 	const NOMBRE_REMITENTE = "Tienda Virtual";
 	const EMAIL_REMITENTE = "no-reply@casarepososurco.com";
-	const NOMBRE_EMPRESA = "Casa de reposo Surco";
+	const NOMBRE_EMPRESA = "Hogar de Mamina";
 	const WEB_EMPRESA = "www.casarepososurco.com";
 /* 	+1 (954) 630-5627 */
 
@@ -41,7 +41,7 @@ const MONEY = "S/ ";
 	const PAIS = "+51";
 
 	//SEo
-	const KEYWORD = "Casa reposo surco";
+	const KEYWORD = "Hogar de Mamina";
 	const T_SEO = "Casa hogar para ancianos, casa de reposo precios, casas de reposo para adultos mayores, casas de reposo precios ";
 	const D_SEO = "Casa hogar para ancianos, casa de reposo precios, casas de reposo para adultos mayores, casas de reposo precios";
 
